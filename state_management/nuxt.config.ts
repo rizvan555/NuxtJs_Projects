@@ -6,6 +6,9 @@ export default defineNuxtConfig({
     '@': resolve(__dirname, './src'), // This is first way
     // assets: '/<rootDir>/assets', // This is second way
   },
+  modules: [
+    '@pinia/nuxt',
+  ],
   css: ['~/assets/main.scss'],
   postcss: {
     plugins: {
